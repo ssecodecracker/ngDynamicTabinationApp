@@ -27,6 +27,11 @@ import { TabService } from './tab.service';
     BrowserAnimationsModule,
     MatTabsModule
   ],
+  entryComponents: [
+    TabOneComponent,
+    TabTwoComponent,
+    TabThreeComponent,
+  ],
   providers: [TabService],
   bootstrap: [AppComponent]
 })
